@@ -1,0 +1,19 @@
+.font {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  line-height: 60px;
+}
+ul {
+  list-style: none;
+}
+li {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.active {
+  color: red;
+  border: 1px solid red;
+}
